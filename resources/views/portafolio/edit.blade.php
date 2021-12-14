@@ -12,7 +12,7 @@
                 </div>
                 <div class="card-body">
 
-                    <form action="{{route('update',$portafolio)}}" method="POST">
+                    <form action="{{route('update',$portafolio)}}" method="POST" enctype="multipart/form-data">
                         @csrf
                         @method('PUT')
                         <div class="form-group row">
@@ -36,7 +36,7 @@
                         <div class="form-group row">
                             <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Imagen</label>
                             <div class="col-sm-10">
-                                <input type="text" name="imagen" class="form-control form-control-sm" id="colFormLabelSm" value="{{$portafolio->imagen}}">
+                                <input type="file" class="form-control" id="inputGroupFile01" name="imagen">
                             </div>
                         </div>
                         <div class="form-group row">

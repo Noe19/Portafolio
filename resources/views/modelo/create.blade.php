@@ -19,13 +19,13 @@
 
                         @csrf
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Nombre </label>
+                            <label for="exampleFormControlInput1" class="form-label">Lenguaje de programacion</label>
                             <input type="name" class="form-control" id="exampleFormControlInput1"
                                 placeholder="Ingrese información" name="nombre">
                         </div>
 
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Imagen</label>
+                            <label for="exampleFormControlTextarea1" class="form-label">Escribe tu experiencia con ese lenguaje</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1"
                                 placeholder="Ingrese información" name="imagen"></textarea>
                         </div>

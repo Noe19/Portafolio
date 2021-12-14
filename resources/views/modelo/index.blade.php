@@ -22,8 +22,8 @@
 <div class="row flex">
   @forelse ($modelos as $modelo)
   <div class="card col-md-5" style="width:18rem; margin-left-10px">
-  <h5 class="card-title">Nombre: {{ $modelo->nombre }}</h5>
-  <p class="card-text">Imagen: {{ $modelo->imagen }}</p>
+  <h5 class="card-title">Lenguaje: {{ $modelo->nombre }}</h5>
+  <p class="card-text">Experiencia: {{ $modelo->imagen }}</p>
   </div>
   <hr>
   @empty
